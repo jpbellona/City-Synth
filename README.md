@@ -27,4 +27,4 @@ In Processing, keys “h, j, k, l” simulate interface button presses that sele
 A single button press selects the video and turns on the respective audio track. A second button press of the same button mutes the audio. In this way, different combinations of button presses allows uses to mix and match video and audio tracks.
 
 The IP cameras we used were built by South Eugene Robotics Team and coded by Jackson. Code is available here if wanting to run camera feed via Raspberry Pi 3.
-github.com/JacksonCoder/pystreamer-http
+https://github.com/JacksonCoder/pystreamer-http
