@@ -5,6 +5,10 @@ City Synth is a method for transforming IP camera feeds into a musical synthesiz
 @org Harmonic Laboratory
 @authors Jon Bellona, John Park
 
+City Synth runs using Processing (http://processing.org) and Logic Pro X. 
+Additional project considerations include a physical interface using Arduino (code included).
+
+Logic Pro X
 Install requires update of Logic Prefs necessary for Video Synth Controller Assignments
 https://documentation.apple.com/en/logicpro/controlsurfacessupport/index.html#chapter=2%26section=5%26tasks=true
 	see dependencies folder for this com.apple.logic.pro.cs file 
