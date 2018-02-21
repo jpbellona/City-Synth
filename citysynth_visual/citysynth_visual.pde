@@ -1,6 +1,3 @@
-//UPDATED 2018.02.02 1:29pm
-// includes audio countdown timer
-
 /* City Synth
  * 
  * @org Harmonic Laboratory
