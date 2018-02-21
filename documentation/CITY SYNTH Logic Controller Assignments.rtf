@@ -1,0 +1,73 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww9920\viewh15620\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 CITY SYNTH\
+\
+Logic Controller Assignments\
+\
+Grab com.apple.logic.pro.cs file from Prefs\
+{\field{\*\fldinst{HYPERLINK "https://documentation.apple.com/en/logicpro/controlsurfacessupport/index.html#chapter=2%26section=5%26tasks=true"}}{\fldrslt https://documentation.apple.com/en/logicpro/controlsurfacessupport/index.html#chapter=2%26section=5%26tasks=true}}\
+\
+All controller assignments are Lo7, 0 127, Scaled assignments.\
+Parameters use Channel Strip, Fader Bank tracks  (current: 2-3, 5-6, 8, 10)\
+Volumes use Channel Strip, Auxiliary 1-4\
+Master Vol uses Channel Strip, Output 1\
+\
+There are 17 controller assignments for communication between Processing and Logic\
+\
+///////\
+1. Master Volume (Output 1)\
+Ch 1, controller 36\
+\
+2. Aux 1 (video 1 group fader). \
+Ch 2, controller 31\
+\
+3. Aux 2 (video 2 group fader)\
+Ch 2, controller 32\
+\
+4. Aux 3 (video 3 group fader)\
+Ch 2, controller 33\
+\
+5. Aux 4 (video 4 group fader)\
+Ch 2, controller 34\
+\
+6. Bitcrusher Freq Sampling (fader bank 8 - drums)\
+Ch 5, controller 45\
+\
+7. Bitcrusher Bit Depth (fader bank 8 - drums)\
+Ch 5, controller 46\
+\
+8. EQ High Cut (LPF, fader bank 8 - drums)\
+Ch 5, controller 47\
+\
+9. Alchemy Pad X (fader bank 5 - bass)\
+Ch 3, controller 41\
+\
+10. Alchemy Pad Y (fader bank 5 - bass)\
+Ch 3, controller 42\
+\
+11. Alchemy Pad X (fader bank 10 - special)\
+Ch 6, controller 51\
+\
+12. Alchemy Pad Y (fader bank 10 - special)\
+Ch 6, controller 52\
+\
+13. EQ High Cut (LPF, fader bank 2 - arp)\
+Ch 1, controller 55\
+\
+14. EQ High Q (LPF, fader bank 2 - arp)\
+Ch 1, controller 56\
+\
+15. EQ High Cut (LPF, fader bank 3 - arp)\
+Ch 1, controller 57\
+\
+16. EQ High Q (LPF, fader bank 3 - arp)\
+Ch 1, controller 58\
+\
+17. Bass EQ LowPass Cutoff (fader bank 5 - bass)\
+Ch 3, controller 60\
+}
