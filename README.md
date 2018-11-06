@@ -42,3 +42,5 @@ Go to line 65 "http://224.0.0.251:5000/video_feed",
 Replace 224.0.0.251 with the IP from the Raspberry Pi. 
 Then Run the Processing sketch.  Hit 'h' on the keyboard to select camera 1 (referencing line of code we just changed) and start the visual.
 The other videos on "j" "k" and "l" (videos 2, 3, 4 respectively) are generic IP cameras. To use other Pi cameras, follow the steps above and replace other lines in the urls array with "http://x.x.x.x:5000/video_feed"  This is the url that points to Jackson's Py streamer code on the Raspberry Pi.
+
+Of course, you may check that the camera is online by typing "http://x.x.x.x:5000/video_feed" into a standard web browser. You should see the red light on the Pi camera turn on and the video display in the browswer.  Only one user (browser, Processing, computer) can access the Pi camera at a given time. Closing the browser window (or Processing sketch) will turn off the red light on the Pi camera (enabling another user to access).
