@@ -62,12 +62,13 @@ IPCapture cam;
  * You'll need at least four urls for full functionality and a dummy fifth for startup. 
 */
 String [] urls = {  
-  "http://131.123.154.3/axis-cgi/mjpg/video.cgi", 
+  "http://224.0.0.251:5000/video_feed", 
   "http://213.193.89.202/axis-cgi/mjpg/video.cgi", 
   "http://201.166.63.44/axis-cgi/mjpg/video.cgi", 
   "http://213.193.89.202/axis-cgi/mjpg/video.cgi", 
   "http://213.193.89.202/axis-cgi/mjpg/video.cgi", 
   "http://199.66.196.234:8090/test.mjpg" }; 
+  //"http://131.123.154.3/axis-cgi/mjpg/video.cgi",
 int numPixels;
 int[] previousFrame;
 
