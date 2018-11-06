@@ -2,7 +2,7 @@ README
 
 City Synth is a method for transforming IP camera feeds into a musical synthesizer.
 
-@org Harmonic Laboratory
+@org Harmonic Laboratory (http://harmoniclab.org)
 @authors Jon Bellona, John Park
 
 City Synth runs using Processing (http://processing.org) and Logic Pro X. 
@@ -19,7 +19,8 @@ ipcapture.*		IPCapture
 gab.opencv.* 	OpenCV
 controlP5.*		ControlP5
 
-Arduino code requires externals
+If you build your own interface, we used Dotstars for lighting.
+The Arduino code requires externals
 #include <Adafruit_DotStar.h>
 
 
